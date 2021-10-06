@@ -13,7 +13,7 @@ The below diagram shows the architecture of the App - A react front-end utilizes
 
 ## Get Started by cloning the repo
 
-`git clone https://github.com/sathishc/shopping-list.git`
+`git clone https://github.com/aws-samples/smart-shopping-list`
 
 
 ## Install the necessary npm packages
