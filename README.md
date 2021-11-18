@@ -64,9 +64,15 @@ Wait for the provisioning to complete. This will take a few minutes. The above s
 
 **Add authentication front-end**
 
-Open the file index.js and add the below line to import the AmplifyAuthenticator component
+Open the file index.js and uncomment the below lines to import the necessary components and configure the amplify app.
 
-`import { AmplifyAuthenticator } from '@aws-amplify/ui-react';`
+```
+// import { Amplify } from 'aws-amplify';
+// import config from './aws-exports';
+// import { AmplifyAuthenticator } from '@aws-amplify/ui-react';
+
+// Amplify.configure(config);
+```
 
 Replace the `<App />` component in the same file with `<AmplifyAuthenticator><App /></AmplifyAuthenticator>`. 
 
